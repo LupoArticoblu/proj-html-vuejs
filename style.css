@@ -71,6 +71,10 @@
 .jumbo{
   height: 450px;
   width: auto;
+  background-image: url('img/home-background-hero-scaled.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 h1{
@@ -87,6 +91,8 @@ h1{
 .roundbtn{
   height: 45px;
   width: 45px;
+  border: none;
+  text-align: center;
 }
 
 .fa-plus{
@@ -104,4 +110,12 @@ h1{
   top: 150px;
   background-color: aliceblue;
   border-radius: 10px;
+}
+
+.btnred{
+  color: aliceblue;
+  background-color: #cc1a26;
+  border: none;
+  border-radius: 20px;
+  width: 150px;
 }
