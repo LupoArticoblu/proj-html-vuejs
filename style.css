@@ -67,9 +67,14 @@
   font-weight: 700;
 }
 
+#title{
+  position: absolute;
+  top: 300px;
+}
+
 /*class header*/
 .jumbo{
-  height: 450px;
+  height: 700px;
   width: auto;
   background-image: url('img/home-background-hero-scaled.jpg');
   background-position: center;
@@ -84,6 +89,13 @@ h1{
 .roundbtn{
   border-radius: 50%;
   background-color: #cc1a26;
+  cursor: pointer;
+  transition: all 1s;
+}
+
+.roundbtn:hover{
+  transition: all 1s;
+  background-color: #0d4f5c;
 }
 
 .btn-head1,
@@ -118,4 +130,9 @@ h1{
   border: none;
   border-radius: 20px;
   width: 150px;
+  transition: all 2s;
+}
+.btnred:hover{
+  transition: all 1s;
+  background-color: #0d4f5c;
 }
