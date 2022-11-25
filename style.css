@@ -57,6 +57,17 @@
   box-sizing: border-box;
 }
 
+/*Id header*/
+#buttonspan{
+  font-size: 12px;
+}
+
+#s39{
+  color: yellowgreen;
+  font-weight: 700;
+}
+
+/*class header*/
 .jumbo{
   height: 450px;
   width: auto;
@@ -74,19 +85,23 @@ h1{
 .btn-head1,
 .btn-head2,
 .roundbtn{
-  height: 30px;
-  width: 30px;
+  height: 45px;
+  width: 45px;
 }
 
 .fa-plus{
   color: aliceblue;
-  font-size: large;
+  font-size: 30px;
 }
 
 .btn-head1{
   top: 100px;
+  background-color: aliceblue;
+  border-radius: 10px;
 }
 
 .btn-head2{
-  top: 140px;
+  top: 150px;
+  background-color: aliceblue;
+  border-radius: 10px;
 }
