@@ -82,9 +82,6 @@
   background-size: cover;
 }
 
-h1{
-  font-size: 600px;
-}
 
 .roundbtn{
   border-radius: 50%;
@@ -135,4 +132,35 @@ h1{
 .btnred:hover{
   transition: all 1s;
   background-color: #0d4f5c;
+}
+
+/* Id main*/
+#polpetta{
+  margin-top: 100px;
+  text-align: center;
+}
+
+#toggle{
+  position: absolute;
+  background-color: white;
+  height: 100px;
+  width: 100%;
+  top: -20px;
+  display: flex;
+  justify-content: space-around;
+  line-height: 100px;
+  font-weight: 500;
+}
+
+
+/* class main*/
+.cards{
+  width: calc(100% / 3);
+  height: 600px;
+  align-items: center;
+}
+
+.sc-card{
+  height: 500px;
+  width: 90%;
 }
