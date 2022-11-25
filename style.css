@@ -1,0 +1,92 @@
+/*DEBUG LAYOUT*/
+.debug{
+  background-color: lightcoral;
+  border: 1px solid red;
+}
+
+.debug2{
+  background-color: aliceblue;
+  border: 1px solid black;
+}
+
+/*Colori Cubo(?)*/
+.bianco{
+  color: aliceblue;
+}
+
+.nero{
+  color: black;
+}
+
+.rosso{
+  color: #cc1a26;
+}
+
+.arancione{
+  color: #e4862a;
+}
+
+.marrone{
+  color: #6b4328;
+}
+
+.argento{
+  color: #bdbdbd;
+}
+
+.tappeto{
+  color: #917979;
+}
+
+.verde{
+  color: #0d4f5c;
+}
+
+.giallo{
+  color: #fcd66c;
+}
+
+.blu{
+  color: #42a3ef;
+}
+
+/*CSS*/
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.jumbo{
+  height: 450px;
+  width: auto;
+}
+
+h1{
+  font-size: 600px;
+}
+
+.roundbtn{
+  border-radius: 50%;
+  background-color: #cc1a26;
+}
+
+.btn-head1,
+.btn-head2,
+.roundbtn{
+  height: 30px;
+  width: 30px;
+}
+
+.fa-plus{
+  color: aliceblue;
+  font-size: large;
+}
+
+.btn-head1{
+  top: 100px;
+}
+
+.btn-head2{
+  top: 140px;
+}
