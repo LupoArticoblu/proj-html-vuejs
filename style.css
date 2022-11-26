@@ -55,7 +55,9 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  cursor: default;
 }
+
 
 /*Id header*/
 #buttonspan{
@@ -121,6 +123,14 @@
   border-radius: 10px;
 }
 
+.btn-head1:hover,
+.btn-head2:hover{
+  height: 50px;
+  width: 50px;
+  font-weight: 500;
+  font-size: 18px;
+}
+
 .btnred{
   color: aliceblue;
   background-color: #cc1a26;
@@ -153,6 +163,9 @@
   font-weight: 500;
 }
 
+#checks{
+  font-size: 40px;
+}
 
 /* class main*/
 .pop{
@@ -162,7 +175,7 @@
 
 .sc-card{
   width: calc(100% / 3 - 15px);
-  height: 700px;
+  height: 630px;
 }
 
 .middle{
@@ -174,6 +187,7 @@
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   text-align: center;
+  line-height: 66px;
 }
 
 .circle{
@@ -183,11 +197,19 @@
   border-radius: 50%;
 }
 
+.viewcart{
+  font-weight: 700;
+  font-size: 20px;
+  position: fixed;
+  left: -15px;
+  bottom: -50px;
+}
+
 .sc-card:hover .middle{
   opacity: 1;
 }
 
-.sc-card img:hover{
+.sc-card:hover img{
   opacity: .5;
 }
 
@@ -196,3 +218,9 @@
   opacity: 1;
   transition: .5s ease;
 }
+
+.btng{
+  height: 40px;
+  font-size: 15px;
+}
+
