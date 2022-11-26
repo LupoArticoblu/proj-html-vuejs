@@ -138,6 +138,7 @@
 #polpetta{
   margin-top: 100px;
   text-align: center;
+  margin-bottom: 50px;
 }
 
 #toggle{
@@ -154,13 +155,44 @@
 
 
 /* class main*/
-.cards{
-  width: calc(100% / 3);
-  height: 600px;
-  align-items: center;
+.pop{
+  justify-content: space-between;
+  text-align: center;
 }
 
 .sc-card{
-  height: 500px;
-  width: 90%;
+  width: calc(100% / 3 - 15px);
+  height: 700px;
+}
+
+.middle{
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.circle{
+  background-color: rgba(0, 0, 0, 0.8);
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+
+.sc-card:hover .middle{
+  opacity: 1;
+}
+
+.sc-card img:hover{
+  opacity: .5;
+}
+
+.sc-card img{
+  width: 100%;
+  opacity: 1;
+  transition: .5s ease;
 }
