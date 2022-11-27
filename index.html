@@ -66,9 +66,9 @@
           </nav>
         </div>
         <div id="title">
-          <h3 class="bianco">Hungry?</h3>
-          <h1 class="giallo">Great Food</h1>
-          <h1 class="bianco">Delivered</h1>
+          <h2 class="bianco">Hungry?</h2>
+          <span id="large" class="giallo">Great Food</span>
+          <h1 id="large" class="bianco">Delivered</h1>
           <button class="btnred btng">VIEW OUR MENU</button>
         </div>
       </div>
@@ -130,10 +130,10 @@
       <button class="btnred btng">START YOUR ORDER <i class="fa-solid fa-share"></i>
       </button>
     </div>
-    <div class="py-3 col-12">
+    <div class="first">
         <img class="first-order" src="./img/first-order-background-scaled.jpg" alt="first-order-background-scaled">
     </div>
-    <div class="container">
+    <div class="container my-5">
       <div class="d-flex justify-content-between my-3">
         <h2>Menu Categories</h2>
         <button class="btnred btng col-2">VIEW FULL MENU &MediumSpace;<i class="fa-solid fa-share"></i></button>
@@ -194,9 +194,235 @@
           </div>
         </div>
       </div>
+      <div class="row">
+        <div class="cardmain d-flex">
+          <div class="fourcard">
+            <div class="foglia center">
+              <i class="fa-solid fa-leaf verde"></i>
+            </div>
+            <span class="centerb">Vegetarian</span>
+          </div>
+          <div class="fourcard">
+            <div class="grano center">
+              <i class="fa-solid fa-wheat-awn giallo"></i>
+            </div>
+            <span class="centerb">Gluten Free</span>
+          </div>
+          <div class="fourcard">
+            <div class="latte center">
+              <i class="fa-solid fa-bottle-droplet blu"></i>
+            </div>
+            <span class="centerb">Dairy Free</span>
+          </div>
+          <div class="fourcard">
+              <div class="carne center">
+                <i class="fa-solid fa-drumstick-bite tappeto"></i>
+              </div>
+              <span class="centerb">Keto Friendly</span>
+          </div>
+        </div>
+      </div>  
     </div>
+    <!-- avrei dovuto creare un container lasciando esternamente l'immagine-->
+    <div class="first second">
+      <img class="app-order" src="./img/app-ordering-scaled.jpg" alt="first-order-background-scaled">
+      <div class="app-store-title">
+        <h2 id="no-margin" class=" bianco">Download Our</h2>
+        <span id="large" class="giallo">Ordering App</span>
+      </div>
+      <img class="app-store" src="./img/app-store-badge.png" alt="app-store-badge">
+      <img class="play-store" src="./img/play-store-badge.png" alt="play-store-badge">
+  </div>
+  <div class="container my-5">
+    <div class="d-flex justify-content-between my-3">
+      <h2>Latest News</h2>
+      <button class="btnred btng col-2">READ MORE NEWS &MediumSpace;<i class="fa-solid fa-share"></i></button>
+    </div>
+    <div class="d-flex">
+      <div class="sc-card2">
+        <img src="./img/pancake-burger-1200x900.jpg" alt="pancake-burger">
+        <h2 class="pop my-3">NEW: The Pancake Burger</h2>
+        <p class="pop">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto autem eaque corporis sapiente quia voluptatibus magnam molestiae nulla laboriosam similique officiis repellat officia aperiam, quas eligendi?</p>
+      </div>
+      <div class="sc-card2">
+        <img src="./img/new-milkshake-menu-1200x900.jpg" alt="new-milkshake-menu">
+        <h2 class="pop my-3">New Milkshake Menu</h2>
+        <p class="pop">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto autem eaque corporis sapiente quia voluptatibus magnam molestiae nulla laboriosam similique officiis repellat officia aperiam, quas eligendi?</p>
+      </div>
+    </div>
+  </div>
   </main>
 
-  <footer></footer>
+  <footer>
+    <div class="foot position-relative">   
+      <div class="row foot-top">
+        <div class="d-flex footnav">
+          <div class="menu">
+            <ul class="bianco">
+              <li>
+                <h5>ORDER ONLINE</h5>
+              </li>
+              <li>
+                <h6>Appetizers</h6>
+              </li>
+              <li>
+                <h6>Burgers</h6>
+              </li>
+              <li>
+                <h6>Pizza</h6>
+              </li>
+              <li>
+                <h6>Fries</h6>
+              </li>
+              <li>
+                <h6>Sides</h6>
+              </li>
+              <li>
+                <h6>Desserts</h6>
+              </li>
+              <li>
+                <h6>Beverages</h6>
+              </li>
+            </ul>
+          </div>
+          <div class="menu">
+            <ul class="bianco">
+              <li>
+                <h5>NAVIGATE</h5>
+              </li>
+              <li>
+                <h6>Home</h6>
+              </li>
+              <li>
+                <h6>Alternate Home</h6>
+              </li>
+              <li>
+                <h6>Menu</h6>
+              </li>
+              <li>
+                <h6>About</h6>
+              </li>
+              <li>
+                <h6>News</h6>
+              </li>
+              <li>
+                <h6>Contact Us</h6>
+              </li>
+              <li>
+                <h6>Cart</h6>
+              </li>
+            </ul>
+          </div>
+          <div class="menu">
+            <ul class="bianco">
+              <li>
+                <h5>INFORMATION</h5>
+              </li>
+              <li>
+                <h6>My Account</h6>
+              </li>
+              <li>
+                <h6>Terms Of Service</h6>
+              </li>
+              <li>
+                <h6>Privacy Policy</h6>
+              </li>
+              <li>
+                <div class="btnbadge">
+                  <img src="./img/app-store-badge.png" alt="app-store-badge">
+                </div>
+                <div class="btnbadge">
+                  <img src="./img/play-store-badge.png" alt="play-store-badge">
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="menu">
+            <ul class="bianco">
+              <li>
+                <h5>OPENING HOURS</h5>
+              </li>
+              <li>
+                <span>Mon - <b class="giallo">10AM to 11PM</b><span>
+              </li>
+              <li>
+                <span>Tue - <b class="giallo">10AM to 11PM</b><span>
+              </li>
+              <li>
+                <span>Wed - <b class="giallo">10AM to 11PM</b><span>
+              </li>
+              <li>
+                <span>Thur - <b class="giallo">10AM to 11PM</b><span>
+              </li>
+              <li>
+                <span>Fri - <b class="giallo">10AM to 11PM</b><span>
+              </li>
+              <li>
+                <span>Sat - <b class="giallo">10AM to 1AM</b><span>
+              </li>
+              <li>
+                <span>Sun - <b class="giallo">11AM to 10PM</b><span>
+              </li>
+            </ul>
+          </div>
+          <div class="menu position-relative">
+            <ul class="bianco">
+              <li class="centre">
+                <h5>VOUCHER</h5>
+              </li>
+              <li>
+                <div class="sold">
+                  <img src="./img/footer-coupon.png" alt="app-store-badge">
+                </div>
+              </li>
+              <li>  
+                <div class="firstorder">
+                  <span class="bianco bold">Just Use The Code</span>
+                  <h4 class="giallo m-0">FIRSTORDER</h4>
+                  <span class="bianco bold">At Checkout</span>
+                </div>  
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row foot-bottom">
+          <img src="./img/takeout-logo.png" alt="takeout-logo">
+          <div class="row my-3">
+            <h2 class="giallo bold">Stay In The Loop</h2>
+            <span class="bianco">sign up to receive up to date news and offers directly in your inbox:</span>
+              <input class="my-3 col-8 offset-2" type="text" placeholder="your@email.com">
+              <button class="col-8 offset-2 btng btnred bold">
+                S U B S C R I B E
+              </button>
+              <ul class="bianco d-flex downicon offset-4 col-4 my-4">
+                <li>
+                  <i class="fa-brands fa-instagram"></i>
+                </li>
+                <li>
+                  <i class="fa-brands fa-facebook"></i>
+                </li>
+                <li>
+                  <i class="fa-brands fa-linkedin"></i>
+                </li>
+                <li>
+                  <i class="fa-solid fa-square-rss"></i>
+                </li>
+                <li>
+                  <i class="fa-brands fa-youtube"></i>
+                </li>
+                <li>
+                  <i class="fa-regular fa-envelope"></i>
+                </li>
+              </ul>
+              <span class="my-4 z giallo">©Copyright2012-2020 | Avada Theme by <b class="bianco">ThemeFusion
+              </b>| All Rights Reserved | Powered by<b class="bianco"> WordPress
+              </b></span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
 </body>
 </html>

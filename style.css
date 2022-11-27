@@ -1,3 +1,6 @@
+/*postilla: provare a creare delle sezioni in cui inserire i singoli elementi CSS (formato immagini, dimensioni container ecc...)*/
+
+
 /*DEBUG LAYOUT*/
 .debug{
   background-color: lightcoral;
@@ -167,6 +170,18 @@
   font-size: 40px;
 }
 
+#large{
+  display: block;
+  font-weight: 700;
+  font-size: 4.5em;
+  line-height: 100%;
+}
+
+#no-margin{
+  font-weight: 700;
+  font-size: 2.5rem;
+}
+
 /* class main*/
 .pop{
   justify-content: space-between;
@@ -224,8 +239,14 @@
   font-size: 15px;
 }
 
+.first{
+  height: 500px;
+  overflow: hidden;  
+}
+
 .first-order{
  width: 100%;
+ height: 120%;
 }
 
 .cardmain{
@@ -268,5 +289,184 @@
 
 .fourcard:hover img{
   opacity: .5;
+}
+
+.center{
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  font-size: 40px;
+}
+
+.centerb{
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  font-weight: 600;
+}
+
+.second{
+  position: relative;
+}
+
+.app-order{
+  width: 100%;
+}
+
+.app-store{
+  position: absolute;
+  z-index: 10;
+  left: 110px;
+  bottom: 160px;
+  height: 80px;
+  cursor: pointer;
+}
+
+.play-store{
+  position: absolute;
+  z-index: 10;
+  bottom: 160px;
+  left: 380px;
+  height: 80px;
+  cursor: pointer;
+}
+
+.app-store-title{
+  position: absolute;
+  bottom: 280px;
+  left: 110px;
+}
+
+.sc-card2{
+  height: 730px;
+  width: calc(100% / 2 - 10px);
+  margin: auto;
+}
+
+.sc-card2 img{
+  width: 100%;
+  height: 70%;
+}
+
+/* Class footer*/
+
+.foot{
+  height: 900px;
+  background-image: url('img/footer-background-scaled.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow-x: hidden;
+}
+
+.menu{
+  width: calc(100% / 6);
+}
+
+.menu ul{
+  list-style: none;
+}
+
+.menu ul li h5{
+  margin-bottom: 30px;
+}
+
+.menu ul li h6{
+  line-height: 40px;
+}
+
+.menu ul li h6:hover{
+  color: #fcd66c;
+}
+
+.bold{
+  font-weight: 700;
+}
+
+.footnav{
+  position: absolute;
+  top: 50px;
+  left: 100px;
+  height: 300px;
+}
+
+.btnbadge img{
+  height: 70px;
+  margin-bottom: 10px;
+  border: 2px solid white;
+  border-radius: 20px;
+}
+
+.btnbadge img:hover{
+  border: 2px solid #fcd66c;
+}
+
+.centre{
+  text-align: center;
+}
+
+.sold{
+  position: absolute;
+  left: 70px;
+}
+
+.firstorder{
+  position: absolute;
+  margin-top: 10px;
+  top: 250px;
+  left: 100px;
+  text-align: center;
+}
+
+.sold img{
+  height: 200px;
+}
+
+.foot-top{
+  height: 500px;
+}
+
+.foot-bottom{
+  text-align: center;
+  align-items: center;
+}
+
+.foot-bottom img{
+  height: 40px;
+  width: 200px;
+  margin: auto;
+  margin-bottom: 10px;
+  transform: translate(-10%);
+}
+
+input{
+  border-radius: 20px;
+  padding: 4px;
+  border: none;
+}
+
+.downicon{
+  list-style: none;
+  font-size: 20px;
+}
+
+.downicon li{
+  margin-left: 35px;
+}
+
+.downicon li i{
+  cursor: pointer;
+}
+
+.z{
+  font-size: smaller;
+}
+
+.z.giallo{
+  font-weight: 800;
 }
 
