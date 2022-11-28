@@ -498,6 +498,15 @@ input{
   color: #fcd66c;
 }
 
-li i:hover{
+footer li i:hover{
   color: #e4862a;
+}
+
+/*cart x js*/
+.count{
+  display: none;
+  height: 15px;
+  width: 15px;
+  background-color: #e4862a;
+  border-radius: 50%;
 }
