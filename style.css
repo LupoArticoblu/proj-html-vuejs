@@ -95,10 +95,6 @@
   transition: all 1s;
 }
 
-.roundbtn:hover{
-  transition: all 1s;
-  background-color: #0d4f5c;
-}
 
 .btn-head1,
 .btn-head2,
@@ -126,13 +122,6 @@
   border-radius: 10px;
 }
 
-.btn-head1:hover,
-.btn-head2:hover{
-  height: 50px;
-  width: 50px;
-  font-weight: 500;
-  font-size: 18px;
-}
 
 .btnred{
   color: aliceblue;
@@ -142,6 +131,22 @@
   width: 150px;
   transition: all 2s;
 }
+
+/* header hover */
+
+.roundbtn:hover{
+  transition: all 1s;
+  background-color: #0d4f5c;
+}
+
+.btn-head1:hover,
+.btn-head2:hover{
+  height: 50px;
+  width: 50px;
+  font-weight: 500;
+  font-size: 18px;
+}
+
 .btnred:hover{
   transition: all 1s;
   background-color: #0d4f5c;
@@ -183,6 +188,7 @@
 }
 
 /* class main*/
+
 .pop{
   justify-content: space-between;
   text-align: center;
@@ -220,13 +226,6 @@
   bottom: -50px;
 }
 
-.sc-card:hover .middle{
-  opacity: 1;
-}
-
-.sc-card:hover img{
-  opacity: .5;
-}
 
 .sc-card img{
   width: 100%;
@@ -245,8 +244,8 @@
 }
 
 .first-order{
- width: 100%;
- height: 120%;
+  width: 100%;
+  height: 120%;
 }
 
 .cardmain{
@@ -279,16 +278,25 @@
 .category{
   text-align: center;
   position: fixed;
+  left: -40px;
   font-weight: 700;
   font-size: 40px;
 }
 
-.fourcard:hover .midd{
-  opacity: 1;
+.category2{
+  text-align: center;
+  position: fixed;
+  left: -20px;
+  font-weight: 700;
+  font-size: 40px;
 }
 
-.fourcard:hover img{
-  opacity: .5;
+.category-small{
+  text-align: center;
+  position: fixed;
+  left: 20px;
+  font-weight: 700;
+  font-size: 40px;
 }
 
 .center{
@@ -352,6 +360,24 @@
   height: 70%;
 }
 
+/* main hover*/
+
+.sc-card:hover .middle{
+  opacity: 1;
+}
+
+.sc-card:hover img{
+  opacity: .5;
+}
+
+.fourcard:hover .midd{
+  opacity: 1;
+}
+
+.fourcard:hover img{
+  opacity: .5;
+}
+
 /* Class footer*/
 
 .foot{
@@ -379,10 +405,6 @@
   line-height: 40px;
 }
 
-.menu ul li h6:hover{
-  color: #fcd66c;
-}
-
 .bold{
   font-weight: 700;
 }
@@ -399,10 +421,6 @@
   margin-bottom: 10px;
   border: 2px solid white;
   border-radius: 20px;
-}
-
-.btnbadge img:hover{
-  border: 2px solid #fcd66c;
 }
 
 .centre{
@@ -470,3 +488,16 @@ input{
   font-weight: 800;
 }
 
+/* footer hover */
+
+.btnbadge img:hover{
+  border: 2px solid #fcd66c;
+}
+
+.menu ul li h6:hover{
+  color: #fcd66c;
+}
+
+li i:hover{
+  color: #e4862a;
+}
