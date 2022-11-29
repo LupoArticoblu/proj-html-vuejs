@@ -504,13 +504,23 @@ footer li i:hover{
 
 /*cart x js*/
 .count{
-  display: none;
-  height: 15px;
-  width: 15px;
+  position: relative;
+  height: 20px;
+  width: 20px;
   background-color: #e4862a;
   border-radius: 50%;
+  /*display: none;*/
 }
 
 #number_of_items{
-  
+  font-size: 1rem;
+  position: absolute;
+  left: 2px;
+  top: -4px;
+  color: white;
+}
+
+/*non funzionante*/
+#js-ex:hover .count{
+  display: inline-block;
 }
